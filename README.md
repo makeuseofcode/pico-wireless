@@ -13,14 +13,14 @@ Remember to update the following values to suit:
     
 Added a few extras to make your Pico W blink 3 times when your device is connected to the internet: 
 
-else:
-    s = 3
-    while s > 0:
-        s -= 1
-        led.value(1)
-        time.sleep(0.5)
-        led.value(0)
-        time.sleep(0.5)
+    else:
+        s = 3
+        while s > 0:
+            s -= 1
+            led.value(1)
+            time.sleep(0.5)
+            led.value(0)
+            time.sleep(0.5)
 
 
 When connected, the following print string will output your SSID and IP Address (see example output below): 
