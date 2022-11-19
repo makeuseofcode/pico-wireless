@@ -1,7 +1,7 @@
 # pico-wireless
 code to connect Pico W to wireless 
 
-Documentation - https://forums.raspberrypi.com/viewtopic.php?t=332130
+Original Raspberry Pi Foundation Documentation - https://forums.raspberrypi.com/viewtopic.php?t=332130
 
 wireless.py enables your Pico W to connect to the internet.  
 
